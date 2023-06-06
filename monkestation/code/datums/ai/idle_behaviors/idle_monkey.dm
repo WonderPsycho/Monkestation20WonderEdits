@@ -1,4 +1,4 @@
-/datum/idle_behavior/idle_monkey/ook
+/datum/idle_behavior/idle_monkey/dukeman
 	common_emotes = list(
 		"screech",
 		"roar",

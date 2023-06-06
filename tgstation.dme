@@ -5480,7 +5480,6 @@
 #include "monkestation\code\modules\mob\living\carbon\human\human_defines.dm"
 #include "monkestation\code\modules\mob\living\carbon\human\simian_gags.dm"
 #include "monkestation\code\modules\mob\living\carbon\human\worn_overlays.dm"
-#include "monkestation\code\modules\mob\living\carbon\human\monkey\monkey.dm"
 #include "monkestation\code\modules\mob\living\carbon\human\species_type\ipc.dm"
 #include "monkestation\code\modules\mob\living\carbon\human\species_type\oozeling.dm"
 #include "monkestation\code\modules\mob\living\carbon\human\species_type\simian.dm"

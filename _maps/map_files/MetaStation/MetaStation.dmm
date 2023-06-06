@@ -32135,12 +32135,6 @@
 	},
 /turf/open/floor/iron,
 /area/station/science/xenobiology)
-"lKq" = (
-/mob/living/carbon/human/species/monkey/ook,
-/turf/open/floor/iron/dark/side{
-	dir = 1
-	},
-/area/station/security/prison)
 "lKu" = (
 /obj/effect/landmark/carpspawn,
 /turf/open/space/basic,
@@ -43504,6 +43498,7 @@
 /turf/open/floor/iron/white,
 /area/station/security/execution/transfer)
 "pNZ" = (
+/mob/living/carbon/human/species/monkey/dukeman,
 /turf/open/floor/iron/dark/corner{
 	dir = 4
 	},
@@ -89861,7 +89856,7 @@ wZz
 rrW
 vtx
 jxS
-lKq
+mQr
 aCQ
 mmV
 tfW
