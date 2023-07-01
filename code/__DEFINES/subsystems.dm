@@ -179,11 +179,11 @@
 #define INIT_ORDER_MINOR_MAPPING -40
 #define INIT_ORDER_PATH -50
 #define INIT_ORDER_EXPLOSIONS -69
+#define INIT_ORDER_HOTSPOTS -95 ///only called on oshan so just call it near the end.
 #define INIT_ORDER_TWITCH -96
 #define INIT_ORDER_STATPANELS -97
 #define INIT_ORDER_BAN_CACHE -98
 #define INIT_ORDER_INIT_PROFILER -99 //Near the end, logs the costs of initialize
-#define INIT_ORDER_DEMO -99
 #define INIT_ORDER_CHAT -100 //Should be last to ensure chat remains smooth during init.
 
 // Subsystem fire priority, from lowest to highest priority
@@ -209,6 +209,7 @@
 #define FIRE_PRIORITY_THROWING 25
 #define FIRE_PRIORITY_REAGENTS 26
 #define FIRE_PRIORITY_SPACEDRIFT 30
+#define FIRE_PRIORITY_HOTSPOT 30
 #define FIRE_PRIOTITY_LIQUIDS 30
 #define FIRE_PRIORITY_SMOOTHING 35
 #define FIRE_PRIORITY_OBJ 40

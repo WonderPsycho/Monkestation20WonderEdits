@@ -18,6 +18,7 @@ GLOBAL_PROTECT(config_error_log)
 GLOBAL_VAR(demo_log)
 GLOBAL_PROTECT(demo_log)
 
+
 GLOBAL_VAR(dynamic_log)
 GLOBAL_PROTECT(dynamic_log)
 
@@ -41,9 +42,6 @@ GLOBAL_LIST_EMPTY(lawchanges)
 GLOBAL_PROTECT(lawchanges)
 GLOBAL_VAR(log_directory)
 GLOBAL_PROTECT(log_directory)
-
-GLOBAL_VAR(demo_directory)
-GLOBAL_PROTECT(demo_directory)
 
 GLOBAL_VAR(lua_log)
 GLOBAL_PROTECT(lua_log)
