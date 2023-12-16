@@ -5,7 +5,7 @@
 
 /datum/round_event_control/anomaly
 	track = EVENT_TRACK_MODERATE
-	tags = list(TAG_DESTRUCTIVE, TAG_MAGICAL)
+	tags = list(TAG_DESTRUCTIVE, TAG_MAGICAL, TAG_COSMIC)
 
 /datum/round_event_control/alien_infestation
 	track = EVENT_TRACK_ROLESET
