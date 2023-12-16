@@ -70,7 +70,7 @@
 
 /datum/round_event_control/fugitives
 	track = EVENT_TRACK_MAJOR
-	tags = list(TAG_COMBAT, TAG_EXTERNAL)
+	tags = list(TAG_COMBAT, TAG_EXTERNAL, TAG_COSMIC)
 	checks_antag_cap = TRUE
 
 /datum/round_event_control/gravity_generator_blackout
