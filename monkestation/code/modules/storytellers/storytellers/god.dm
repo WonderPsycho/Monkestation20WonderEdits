@@ -19,5 +19,6 @@
 		)
 	tag_multipliers = list(TAG_COSMIC = 1.12, TAG_SPOOKY = 0.10, TAG_COMMUNAL = 0.9, TAG_TARGETED = 1.3)
 	roundstart_prob = 4
+	cost_variance = 20
 	ignores_roundstart = TRUE
 	weight = 3

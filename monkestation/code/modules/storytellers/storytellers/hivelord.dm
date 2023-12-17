@@ -11,6 +11,7 @@
 		)
 	tag_multipliers = list(TAG_BIOPUNK = 1.12, TAG_ALIEN = 0.9, TAG_COUNTERBIO = 0.4)
 	population_min = 40
+	cost_variance = 23
 	roundstart_prob = 1
 	ignores_roundstart = TRUE
 	weight = 3
