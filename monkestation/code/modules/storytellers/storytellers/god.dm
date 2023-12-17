@@ -16,7 +16,7 @@
 		EVENT_TRACK_ROLESET = 1.4,
 		EVENT_TRACK_OBJECTIVES = 1
 		)
-	tag_multipliers = list(TAG_COSMIC = 1.6, TAG_SPOOKY = 0.6, TAG_COMMUNAL = 0.9, TAG_TARGETED = 1.3)
+	tag_multipliers = list(TAG_COSMIC = 1.8, TAG_SPOOKY = 0.6, TAG_COMMUNAL = 0.9, TAG_TARGETED = 1.3)
 	roundstart_prob = 4
 	ignores_roundstart = TRUE
 	weight = 3
