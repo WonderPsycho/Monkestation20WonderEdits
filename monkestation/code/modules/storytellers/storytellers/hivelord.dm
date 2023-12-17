@@ -14,4 +14,4 @@
 	cost_variance = 28
 	roundstart_prob = 1
 	ignores_roundstart = TRUE
-	weight = 3
+	weight = 4
