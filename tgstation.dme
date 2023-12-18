@@ -6499,6 +6499,7 @@
 #include "monkestation\code\modules\storytellers\storytellers\god.dm"
 #include "monkestation\code\modules\storytellers\storytellers\hermit.dm"
 #include "monkestation\code\modules\storytellers\storytellers\hivelord.dm"
+#include "monkestation\code\modules\storytellers\storytellers\hybrid.dm"
 #include "monkestation\code\modules\storytellers\storytellers\jester.dm"
 #include "monkestation\code\modules\storytellers\storytellers\mystic.dm"
 #include "monkestation\code\modules\storytellers\storytellers\nobleman.dm"
