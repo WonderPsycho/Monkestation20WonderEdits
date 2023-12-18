@@ -36,6 +36,8 @@
 #define TAG_BIOPUNK "biopunk"
 //Event specifically used by The Hivelord, that triggers specifically nukie events
 #define TAG_COUNTERBIO "counterbio"
+//When the event is a security threat (used mainly by The Commander and The Cadet)
+#define TAG_SECURITY "security"
 
 #define EVENT_TRACK_MUNDANE "Mundane"
 #define EVENT_TRACK_MODERATE "Moderate"
