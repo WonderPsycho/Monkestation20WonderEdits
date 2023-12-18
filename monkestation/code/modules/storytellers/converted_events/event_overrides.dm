@@ -233,3 +233,7 @@
 /datum/round_event_control/wormholes
 	track = EVENT_TRACK_MODERATE
 	tags = list(TAG_COMMUNAL, TAG_MAGICAL, TAG_COSMIC)
+
+/datum/round_event_control/wizard/blobies
+	track = EVENT_TRACK_MAJOR
+	tags = list(TAG_MAGICAL, TAG_BIOPUNK, TAG_COMBAT, TAG_ALIEN)
