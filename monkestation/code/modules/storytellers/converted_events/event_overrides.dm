@@ -79,7 +79,7 @@
 
 /datum/round_event_control/grey_tide
 	track = EVENT_TRACK_MODERATE
-	tags = list(TAG_DESTRUCTIVE, TAG_SPOOKY, TAG_COSMIC)
+	tags = list(TAG_DESTRUCTIVE, TAG_SPOOKY, TAG_COSMIC, TAG_SECURITY)
 
 /datum/round_event_control/grid_check
 	track = EVENT_TRACK_MODERATE
@@ -111,7 +111,7 @@
 
 /datum/round_event_control/morph
 	track = EVENT_TRACK_MAJOR
-	tags = list(TAG_COMBAT, TAG_SPOOKY, TAG_EXTERNAL, TAG_ALIEN)
+	tags = list(TAG_COMBAT, TAG_SPOOKY, TAG_EXTERNAL, TAG_ALIEN, TAG_SECURITY)
 	checks_antag_cap = TRUE
 
 /datum/round_event_control/nightmare
@@ -121,7 +121,7 @@
 
 /datum/round_event_control/obsessed
 	track = EVENT_TRACK_MODERATE
-	tags = list(TAG_CREW_ANTAG, TAG_TARGETED, TAG_COSMIC)
+	tags = list(TAG_CREW_ANTAG, TAG_TARGETED, TAG_COSMIC, TAG_SECURITY)
 
 /datum/round_event_control/operative
 	track = EVENT_TRACK_MAJOR //this is a safe guard and does not trigger normally(technically it can but not really) so no tags
@@ -193,12 +193,12 @@
 
 /datum/round_event_control/space_dragon
 	track = EVENT_TRACK_ROLESET
-	tags = list(TAG_COMBAT, TAG_SPACE, TAG_EXTERNAL, TAG_ALIEN, TAG_MAGICAL)
+	tags = list(TAG_COMBAT, TAG_SPACE, TAG_EXTERNAL, TAG_ALIEN, TAG_MAGICAL, TAG_SECURITY)
 	checks_antag_cap = TRUE
 
 /datum/round_event_control/space_ninja
 	track = EVENT_TRACK_ROLESET
-	tags = list(TAG_COMBAT, TAG_DESTRUCTIVE, TAG_EXTERNAL, TAG_BIOPUNK)
+	tags = list(TAG_COMBAT, TAG_DESTRUCTIVE, TAG_EXTERNAL, TAG_BIOPUNK, TAG_SECURITY)
 	checks_antag_cap = TRUE
 
 /datum/round_event_control/spacevine
