@@ -1,6 +1,6 @@
 /datum/round_event_control/abductor
 	track = EVENT_TRACK_MAJOR
-	tags = list(TAG_TARGETED, TAG_SPOOKY, TAG_EXTERNAL, TAG_ALIEN)
+	tags = list(TAG_TARGETED, TAG_SPOOKY, TAG_EXTERNAL, TAG_ALIEN, TAG_SECURITY)
 	checks_antag_cap = TRUE
 
 /datum/round_event_control/anomaly
@@ -27,7 +27,7 @@
 
 /datum/round_event_control/brand_intelligence
 	track = EVENT_TRACK_MODERATE
-	tags = list(TAG_DESTRUCTIVE, TAG_COMMUNAL)
+	tags = list(TAG_DESTRUCTIVE, TAG_COMMUNAL, TAG_SECURITY)
 
 /datum/round_event_control/bureaucratic_error
 	track = EVENT_TRACK_MAJOR // if you've ever dealt with 10 mimes you understand why.
@@ -35,22 +35,22 @@
 
 /datum/round_event_control/camera_failure
 	track = EVENT_TRACK_MUNDANE
-	tags = list(TAG_COMMUNAL, TAG_SPOOKY, TAG_COSMIC)
+	tags = list(TAG_COMMUNAL, TAG_SPOOKY, TAG_COSMIC, TAG_SECURITY)
 
 /datum/round_event_control/carp_migration
 	track = EVENT_TRACK_MODERATE
-	tags = list(TAG_DESTRUCTIVE, TAG_COMBAT, TAG_SPACE, TAG_EXTERNAL, TAG_ALIEN)
+	tags = list(TAG_DESTRUCTIVE, TAG_COMBAT, TAG_SPACE, TAG_EXTERNAL, TAG_ALIEN, TAG_SECURITY)
 
 //THIS IS THE METEOR EVENT, IT NEEDS TO BE A METEOR, DO NOT SPAWN THIS ON PLANETARY MAPS(the spawn works fine on planets, the actual issue is the ling passes out due to CO2)
 /datum/round_event_control/changeling
 	track = EVENT_TRACK_MAJOR
-	tags = list(TAG_COMBAT, TAG_SPACE, TAG_EXTERNAL, TAG_ALIEN, TAG_BIOPUNK)
+	tags = list(TAG_COMBAT, TAG_SPACE, TAG_EXTERNAL, TAG_ALIEN, TAG_BIOPUNK, TAG_SECURITY)
 	checks_antag_cap = TRUE
 
 /datum/round_event_control/communications_blackout
 	max_occurrences = 2
 	track = EVENT_TRACK_MODERATE
-	tags = list(TAG_COMMUNAL, TAG_SPOOKY, TAG_COSMIC)
+	tags = list(TAG_COMMUNAL, TAG_SPOOKY, TAG_COSMIC, TAG_SECURITY)
 
 /datum/round_event_control/disease_outbreak
 	track = EVENT_TRACK_MAJOR
@@ -66,11 +66,11 @@
 
 /datum/round_event_control/falsealarm
 	track = EVENT_TRACK_MUNDANE
-	tags = list(TAG_COMMUNAL, TAG_COSMIC)
+	tags = list(TAG_COMMUNAL, TAG_COSMIC, TAG_SECURITY)
 
 /datum/round_event_control/fugitives
 	track = EVENT_TRACK_MAJOR
-	tags = list(TAG_COMBAT, TAG_EXTERNAL, TAG_COSMIC)
+	tags = list(TAG_COMBAT, TAG_EXTERNAL, TAG_COSMIC, TAG_SECURITY)
 	checks_antag_cap = TRUE
 
 /datum/round_event_control/gravity_generator_blackout
