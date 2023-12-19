@@ -182,6 +182,10 @@
 	track = EVENT_TRACK_MODERATE
 	tags = list(TAG_COMMUNAL)
 
+/datum/round_event_control/shuttle_loan
+	track = EVENT_TRACK_MAJOR
+	tags = list(TAG_COMMUNAL, TAG_BIOPUNK, TAG_ALIEN, TAG_EXTERNAL, TAG_SECURITY)
+
 /datum/round_event_control/slaughter
 	track = EVENT_TRACK_MAJOR
 	tags = list(TAG_COMBAT, TAG_SPOOKY, TAG_EXTERNAL, TAG_MAGICAL, TAG_COSMIC)
