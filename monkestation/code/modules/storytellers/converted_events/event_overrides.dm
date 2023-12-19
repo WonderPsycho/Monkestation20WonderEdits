@@ -203,16 +203,16 @@
 
 /datum/round_event_control/spacevine
 	track = EVENT_TRACK_MAJOR
-	tags = list(TAG_COMBAT, TAG_DESTRUCTIVE, TAG_ALIEN)
+	tags = list(TAG_COMBAT, TAG_DESTRUCTIVE, TAG_ALIEN, TAG_SECURITY)
 	checks_antag_cap = TRUE
 
 /datum/round_event_control/spider_infestation
 	track = EVENT_TRACK_ROLESET
-	tags = list(TAG_COMBAT, TAG_DESTRUCTIVE, TAG_EXTERNAL, TAG_ALIEN, TAG_BIOPUNK)
+	tags = list(TAG_COMBAT, TAG_DESTRUCTIVE, TAG_EXTERNAL, TAG_ALIEN, TAG_BIOPUNK, TAG_SECURITY)
 
 /datum/round_event_control/stray_cargo
 	track = EVENT_TRACK_MUNDANE
-	tags = list(TAG_COMMUNAL, TAG_COSMIC)
+	tags = list(TAG_COMMUNAL, TAG_COSMIC, TAG_SECURITY)
 
 /datum/round_event_control/stray_meteor
 	track = EVENT_TRACK_MODERATE
@@ -232,8 +232,8 @@
 
 /datum/round_event_control/wormholes
 	track = EVENT_TRACK_MODERATE
-	tags = list(TAG_COMMUNAL, TAG_MAGICAL, TAG_COSMIC)
+	tags = list(TAG_COMMUNAL, TAG_MAGICAL, TAG_COSMIC, TAG_SECURITY)
 
 /datum/round_event_control/wizard/blobies //THIS WILL BE THE ONLY WIZARD MAGICAL EVENT THAT WILL BE ADDED TO THIS SYSTEM, I WILL NOT ADD ANY OTHER WIZARD BASED MAGICAL EVENT TO THIS SYSTEM AS I WANT THE REST OF THOSE EVENTS TO BE PURELY RESTRICTED TO THE WIZARD'S STUFF AND THEIR NON-SENSE!! -WonderPsycho/WonderHellblazer
 	track = EVENT_TRACK_MAJOR
-	tags = list(TAG_MAGICAL, TAG_BIOPUNK, TAG_COMBAT, TAG_ALIEN)
+	tags = list(TAG_MAGICAL, TAG_BIOPUNK, TAG_COMBAT, TAG_ALIEN, TAG_SECURITY)
