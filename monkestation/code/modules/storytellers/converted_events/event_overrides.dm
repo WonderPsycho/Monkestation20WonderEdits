@@ -31,7 +31,7 @@
 
 /datum/round_event_control/bureaucratic_error
 	track = EVENT_TRACK_MAJOR // if you've ever dealt with 10 mimes you understand why.
-	tags = list(TAG_COMMUNAL)
+	tags = list(TAG_COMMUNAL, TAG_SECURITY)
 
 /datum/round_event_control/camera_failure
 	track = EVENT_TRACK_MUNDANE

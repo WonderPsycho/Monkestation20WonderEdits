@@ -9,5 +9,5 @@
 		EVENT_TRACK_ROLESET = 1.5,
 		EVENT_TRACK_OBJECTIVES = 1
 		)
-	tag_multipliers = list(TAG_SECURITY = 1.5)
+	tag_multipliers = list(TAG_SECURITY = 1.5, TAG_COMMUNAL = 1.3, )
 	weight = 3
