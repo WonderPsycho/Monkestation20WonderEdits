@@ -30,6 +30,14 @@
 #define TAG_ALIEN "alien"
 /// When the event is magical in nature
 #define TAG_MAGICAL "magical"
+//When the event is cosmic horror-ish (primarily used by The God)
+#define TAG_COSMIC "cosmic"
+//When the event has something to do with infestations, infections and biopunk (sentient diseases, changelings)
+#define TAG_BIOPUNK "biopunk"
+//Event specifically used by The Hivelord, that triggers specifically nukie events
+#define TAG_COUNTERBIO "counterbio"
+//When the event is a security threat (used mainly by The Commander and The Cadet)
+#define TAG_SECURITY "security"
 
 #define EVENT_TRACK_MUNDANE "Mundane"
 #define EVENT_TRACK_MODERATE "Moderate"

@@ -1,6 +1,6 @@
 /datum/round_event_control/antagonist/solo/bloodcult
 	name = "Blood Cult"
-	tags = list(TAG_SPOOKY, TAG_DESTRUCTIVE, TAG_COMBAT, TAG_TEAM_ANTAG, TAG_MAGICAL)
+	tags = list(TAG_SPOOKY, TAG_DESTRUCTIVE, TAG_COMBAT, TAG_TEAM_ANTAG, TAG_MAGICAL, TAG_COSMIC)
 	antag_flag = ROLE_CULTIST
 	antag_datum = /datum/antagonist/cult
 	typepath = /datum/round_event/antagonist/solo/bloodcult
