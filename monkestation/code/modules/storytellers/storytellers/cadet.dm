@@ -1,6 +1,7 @@
 /datum/storyteller/cadet
 	name = "The Cadet"
 	desc = "The Cadet will create mostly mainly security threats to the station, and some events that may benefit security."
+	welcome_text = "You have a feeling that the security this shift is funded alot more better here."
 	event_repetition_multiplier = 1
 	point_gains_multipliers = list(
 		EVENT_TRACK_MUNDANE = 1.9,
