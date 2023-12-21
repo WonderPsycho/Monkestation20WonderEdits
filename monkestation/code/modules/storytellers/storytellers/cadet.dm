@@ -1,6 +1,6 @@
 /datum/storyteller/cadet
 	name = "The Cadet"
-	desc = "The Cadet will create mostly mainly security threats to the station, and some events that may benefit security."
+	desc = "The Cadet will create mostly mainly security based threats to the station, and some events that may benefit security."
 	welcome_text = "You have a feeling that the security this shift is funded alot more better here."
 	event_repetition_multiplier = 1
 	point_gains_multipliers = list(
@@ -10,5 +10,5 @@
 		EVENT_TRACK_ROLESET = 1.6,
 		EVENT_TRACK_OBJECTIVES = 1
 		)
-	tag_multipliers = list(TAG_SECURITY = 1.5, TAG_COMMUNAL = 1.3, TAG_TARGETED = 1.2, TAG_CREW_ANTAG = 1.3)
+	tag_multipliers = list(TAG_SECURITY = 1.5, TAG_COMMUNAL = 1.3, TAG_TARGETED = 1.2, TAG_CREW_ANTAG = 1.3, TAG_SPACE = 1.3)
 	weight = 4
