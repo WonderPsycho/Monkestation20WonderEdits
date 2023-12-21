@@ -11,4 +11,4 @@
 		EVENT_TRACK_OBJECTIVES = 1
 		)
 	tag_multipliers = list(TAG_SECURITY = 1.5, TAG_COMMUNAL = 1.3, TAG_TARGETED = 1.2, TAG_CREW_ANTAG = 1.3)
-	weight = 3
+	weight = 4
