@@ -9,6 +9,6 @@
 		EVENT_TRACK_OBJECTIVES = 4
 		)
 	tag_multipliers = list(TAG_COMBAT = 5, TAG_DESTRUCTIVE = 5, TAG_TARGETED = 4, TAG_EXTERNAL = 4, TAG_ALIEN = 5, TAG_BIOPUNK = 5, TAG_COSMIC = 4)
-	population_min = 30
-	weight = 1
+	//population_min = 30
+	weight = 5
 	roundstart_prob = 40
