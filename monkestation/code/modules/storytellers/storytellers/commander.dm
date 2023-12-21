@@ -19,4 +19,4 @@
 		)
 	tag_multipliers = list(TAG_SECURITY = 2.4, TAG_COMMUNAL = 1.10, TAG_TARGETED = 1.5, TAG_CREW_ANTAG = 1.10)
 	weight = 3
-	guarantees_roundstart_roleset = FALSE
+	roundstart_prob = 0
