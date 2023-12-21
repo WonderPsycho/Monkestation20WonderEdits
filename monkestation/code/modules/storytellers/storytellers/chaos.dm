@@ -1,6 +1,7 @@
 /datum/storyteller/chaos
 	name = "The Chaos"
-	desc = "The Chaos enjoys a good fight but abhors senseless destruction. Prefers heavy hits on single targets."
+	desc = "The Chaos... Does what it does as it says on the tin! Causes more chaotic and destructive events to happen and at a sort of quick and aggressive pace."
+	welcome_text = "This shift just doesn't feel safe at all..."
 	point_gains_multipliers = list(
 		EVENT_TRACK_MUNDANE = 3,
 		EVENT_TRACK_MODERATE = 4,
