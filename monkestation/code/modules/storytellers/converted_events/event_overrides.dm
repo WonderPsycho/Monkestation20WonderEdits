@@ -167,7 +167,7 @@
 
 /datum/round_event_control/sentience
 	track = EVENT_TRACK_MUNDANE
-	tags = list(TAG_COMMUNAL, TAG_SPOOKY, TAG_MAGICAL, TAG_CONSPIRACY)
+	tags = list(TAG_COMMUNAL, TAG_SPOOKY, TAG_MAGICAL, TAG_CONSPIRACY, TAG_POSITIVE)
 
 /datum/round_event_control/sentient_disease
 	track = EVENT_TRACK_MAJOR
@@ -180,11 +180,11 @@
 
 /datum/round_event_control/shuttle_insurance
 	track = EVENT_TRACK_MODERATE
-	tags = list(TAG_COMMUNAL)
+	tags = list(TAG_COMMUNAL, TAG_POSITIVE)
 
 /datum/round_event_control/shuttle_loan
 	track = EVENT_TRACK_MAJOR
-	tags = list(TAG_COMMUNAL, TAG_BIOPUNK, TAG_ALIEN, TAG_EXTERNAL, TAG_SECURITY)
+	tags = list(TAG_COMMUNAL, TAG_BIOPUNK, TAG_ALIEN, TAG_EXTERNAL, TAG_SECURITY, TAG_POSITIVE)
 
 /datum/round_event_control/slaughter
 	track = EVENT_TRACK_MAJOR
@@ -216,7 +216,7 @@
 
 /datum/round_event_control/stray_cargo
 	track = EVENT_TRACK_MUNDANE
-	tags = list(TAG_COMMUNAL, TAG_COSMIC, TAG_SECURITY, TAG_CONSPIRACY)
+	tags = list(TAG_COMMUNAL, TAG_COSMIC, TAG_SECURITY, TAG_CONSPIRACY, TAG_POSITIVE)
 
 /datum/round_event_control/stray_meteor
 	track = EVENT_TRACK_MODERATE
