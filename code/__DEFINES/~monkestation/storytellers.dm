@@ -34,10 +34,24 @@
 #define TAG_COSMIC "cosmic"
 //When the event has something to do with infestations, infections and biopunk (sentient diseases, changelings)
 #define TAG_BIOPUNK "biopunk"
-//Event specifically used by The Hivelord, that triggers specifically nukie events
+//Tag specifically used by The Hivelord, that triggers specifically nukie events
 #define TAG_COUNTERBIO "counterbio"
 //When the event is a security threat (used mainly by The Commander and The Cadet)
 #define TAG_SECURITY "security"
+//Tag specifically used by The Cluwne and The Omegacluwne, events used to make really really CURSED rounds
+#define TAG_CURSED "cursed"
+//When the event is something really mundane, whether it's a mundane station danger like a radiation leak, Or a mundane station damage like some failed cameras
+#define TAG_MUNDANE "mundane"
+//When the event is clown-ish or prank-ish (clown ops, bureaucratic error)
+#define TAG_HONK "honk"
+//When the event is disease related (sentient disease, both versions of disease outbreak)
+#define TAG_DISEASE "disease"
+//When the event is "religious-ish" (artifact manifestation, mice migration)
+#define TAG_RELIGION "religion"
+//When the event is jungle-like/wilderness-like and monkey-like (primarily used by The Monkey)
+#define TAG_MONKE "monke"
+//When the event is AI related (ion storm, malf ai)
+#define TAG_AI "ai"
 
 #define EVENT_TRACK_MUNDANE "Mundane"
 #define EVENT_TRACK_MODERATE "Moderate"
