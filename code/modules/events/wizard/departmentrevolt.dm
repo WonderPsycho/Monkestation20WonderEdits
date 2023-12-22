@@ -3,7 +3,7 @@
 
 /datum/round_event_control/wizard/deprevolt //stationwide!
 	name = "Departmental Uprising"
-	weight = 0 //An order that requires order in a round of chaos was maybe not the best idea. Requiescat in pace departmental uprising August 2014 - March 2015 //hello motherfucker i fixed your shit in 2021
+	weight = 1 //An order that requires order in a round of chaos was maybe not the best idea. Requiescat in pace departmental uprising August 2014 - March 2015 //hello motherfucker i fixed your shit in 2021
 	typepath = /datum/round_event/wizard/deprevolt
 	max_occurrences = 1
 	earliest_start = 0 MINUTES
@@ -18,7 +18,7 @@
 	///which department is revolting?
 	var/datum/job_department/picked_department
 	/// Announce the separatist nation to the round?
-	var/announce = FALSE
+	var/announce = TRUE //Monkestation Edit:Departmental Uprising is now a event triggered by storytellers
 	/// Is it going to try fighting other nations?
 	var/dangerous_nation = TRUE
 
@@ -33,7 +33,7 @@
 
 /datum/event_admin_setup/listed_options/departmental_revolt/get_list()
 	return subtypesof(/datum/job_department)
-	
+
 /datum/event_admin_setup/listed_options/departmental_revolt/apply_to_event(datum/round_event/wizard/deprevolt/event)
 	event.picked_department = chosen
 

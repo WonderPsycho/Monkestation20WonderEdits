@@ -241,3 +241,7 @@
 /datum/round_event_control/wizard/blobies //THIS WILL BE THE ONLY WIZARD MAGICAL EVENT THAT WILL BE ADDED TO THIS SYSTEM, I WILL NOT ADD ANY OTHER WIZARD BASED MAGICAL EVENT TO THIS SYSTEM AS I WANT THE REST OF THOSE EVENTS TO BE PURELY RESTRICTED TO THE WIZARD'S STUFF AND THEIR NON-SENSE!! -WonderPsycho/WonderHellblazer
 	track = EVENT_TRACK_MAJOR
 	tags = list(TAG_MAGICAL, TAG_BIOPUNK, TAG_COMBAT, TAG_ALIEN, TAG_SECURITY)
+
+/datum/round_event_control/wizard/deprevolt //actually change my mind, this will be the last "wizard event" that will be storyteller pickable, even though this is a scrapped magical event that is essentially a mini-nations event originally only triggerable by admins(it only turns one department into independent separatists), so I decided "if Nations as a event/roundtype was already regulated to only be triggered by admins, why not this mini-nations event be a randomly triggerable event by storytellers?" -WonderPsycho/WonderHellblazer
+	track = EVENT_TRACK_MAJOR
+	tags = list(TAG_SECURITY, TAG_COMBAT, TAG_COMMUNAL)
