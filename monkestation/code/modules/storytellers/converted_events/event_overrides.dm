@@ -54,7 +54,7 @@
 
 /datum/round_event_control/disease_outbreak
 	track = EVENT_TRACK_MAJOR
-	tags = list(TAG_TARGETED, TAG_COMMUNAL, TAG_EXTERNAL, TAG_ALIEN, TAG_MAGICAL, TAG_BIOPUNK)
+	tags = list(TAG_TARGETED, TAG_COMMUNAL, TAG_EXTERNAL, TAG_ALIEN, TAG_MAGICAL, TAG_BIOPUNK, TAG_DISEASE)
 
 /datum/round_event_control/electrical_storm
 	track = EVENT_TRACK_MUNDANE
@@ -62,7 +62,7 @@
 
 /datum/round_event_control/fake_virus
 	track = EVENT_TRACK_MUNDANE
-	tags = list(TAG_TARGETED, TAG_BIOPUNK)
+	tags = list(TAG_TARGETED, TAG_BIOPUNK, TAG_DISEASE)
 
 /datum/round_event_control/falsealarm
 	track = EVENT_TRACK_MUNDANE
@@ -171,7 +171,7 @@
 
 /datum/round_event_control/sentient_disease
 	track = EVENT_TRACK_MAJOR
-	tags = list(TAG_COMBAT, TAG_DESTRUCTIVE, TAG_EXTERNAL, TAG_ALIEN, TAG_BIOPUNK)
+	tags = list(TAG_COMBAT, TAG_DESTRUCTIVE, TAG_EXTERNAL, TAG_ALIEN, TAG_BIOPUNK, TAG_DISEASE)
 	checks_antag_cap = TRUE
 
 /datum/round_event_control/shuttle_catastrophe
