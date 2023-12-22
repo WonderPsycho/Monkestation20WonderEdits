@@ -3,7 +3,7 @@
 /datum/round_event_control/antagonist/solo/monsterhunter
 	track = EVENT_TRACK_MAJOR //being an anrtag event is for backend reasons, the event itself is major
 	antag_flag = ROLE_MONSTERHUNTER
-	tags = list(TAG_MAGICAL, TAG_TARGETED, TAG_COMBAT, TAG_COUNTERBIO)
+	tags = list(TAG_MAGICAL, TAG_TARGETED, TAG_COMBAT, TAG_COUNTERBIO, TAG_CONSPIRACY)
 	antag_datum = /datum/antagonist/monsterhunter
 	protected_roles = list(
 		JOB_CAPTAIN,
