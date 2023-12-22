@@ -52,6 +52,8 @@
 #define TAG_MONKE "monke"
 //When the event is AI related (ion storm, malf ai)
 #define TAG_AI "ai"
+//When the event is kind of conspiratorial (primarily used by The Conspirator)
+#define TAG_CONSPIRACY "conspiracy"
 
 #define EVENT_TRACK_MUNDANE "Mundane"
 #define EVENT_TRACK_MODERATE "Moderate"
