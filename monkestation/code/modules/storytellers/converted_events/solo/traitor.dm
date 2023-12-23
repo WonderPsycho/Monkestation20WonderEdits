@@ -1,6 +1,6 @@
 /datum/round_event_control/antagonist/solo/traitor
 	antag_flag = ROLE_TRAITOR
-	tags = list(TAG_COMBAT, TAG_SECURITY, TAG_CONSPIRACY)
+	tags = list(TAG_COMBAT, TAG_SECURITY, TAG_CONSPIRACY, TAG_AI)
 	antag_datum = /datum/antagonist/traitor/infiltrator
 	protected_roles = list(
 		JOB_CAPTAIN,

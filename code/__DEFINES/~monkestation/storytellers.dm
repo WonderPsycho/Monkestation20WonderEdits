@@ -48,7 +48,7 @@
 #define TAG_DISEASE "disease"
 //When the event is "religious-ish" (artifact manifestation, mice migration)
 #define TAG_RELIGION "religion"
-//When the event is jungle-like/wilderness-like and monkey-like (primarily used by The Monkey)
+//When the event is jungle-like/wilderness-like, monkey-like and nature-like (primarily used by The Monkey)
 #define TAG_MONKE "monke"
 //When the event is AI related (ion storm, malf ai)
 #define TAG_AI "ai"

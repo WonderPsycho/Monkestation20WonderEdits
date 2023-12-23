@@ -5,7 +5,7 @@
 
 /datum/round_event_control/anomaly
 	track = EVENT_TRACK_MODERATE
-	tags = list(TAG_DESTRUCTIVE, TAG_MAGICAL, TAG_COSMIC)
+	tags = list(TAG_DESTRUCTIVE, TAG_MAGICAL, TAG_COSMIC, TAG_MONKE)
 
 /datum/round_event_control/alien_infestation
 	track = EVENT_TRACK_ROLESET
@@ -14,7 +14,7 @@
 
 /datum/round_event_control/aurora_caelus
 	track = EVENT_TRACK_MUNDANE
-	tags = list(TAG_COMMUNAL, TAG_POSITIVE, TAG_SPACE, TAG_CONSPIRACY)
+	tags = list(TAG_COMMUNAL, TAG_POSITIVE, TAG_SPACE, TAG_CONSPIRACY, TAG_MONKE)
 
 /datum/round_event_control/blob
 	track = EVENT_TRACK_ROLESET
@@ -35,11 +35,11 @@
 
 /datum/round_event_control/camera_failure
 	track = EVENT_TRACK_MUNDANE
-	tags = list(TAG_COMMUNAL, TAG_SPOOKY, TAG_COSMIC, TAG_SECURITY, TAG_CONSPIRACY)
+	tags = list(TAG_COMMUNAL, TAG_SPOOKY, TAG_COSMIC, TAG_SECURITY, TAG_CONSPIRACY, TAG_AI)
 
 /datum/round_event_control/carp_migration
 	track = EVENT_TRACK_MODERATE
-	tags = list(TAG_DESTRUCTIVE, TAG_COMBAT, TAG_SPACE, TAG_EXTERNAL, TAG_ALIEN, TAG_SECURITY)
+	tags = list(TAG_DESTRUCTIVE, TAG_COMBAT, TAG_SPACE, TAG_EXTERNAL, TAG_ALIEN, TAG_SECURITY, TAG_MONKE)
 
 //THIS IS THE METEOR EVENT, IT NEEDS TO BE A METEOR, DO NOT SPAWN THIS ON PLANETARY MAPS(the spawn works fine on planets, the actual issue is the ling passes out due to CO2)
 /datum/round_event_control/changeling
@@ -50,11 +50,11 @@
 /datum/round_event_control/communications_blackout
 	max_occurrences = 2
 	track = EVENT_TRACK_MODERATE
-	tags = list(TAG_COMMUNAL, TAG_SPOOKY, TAG_COSMIC, TAG_SECURITY, TAG_CONSPIRACY)
+	tags = list(TAG_COMMUNAL, TAG_SPOOKY, TAG_COSMIC, TAG_SECURITY, TAG_CONSPIRACY, TAG_AI)
 
 /datum/round_event_control/disease_outbreak
 	track = EVENT_TRACK_MAJOR
-	tags = list(TAG_TARGETED, TAG_COMMUNAL, TAG_EXTERNAL, TAG_ALIEN, TAG_MAGICAL, TAG_BIOPUNK, TAG_DISEASE)
+	tags = list(TAG_TARGETED, TAG_COMMUNAL, TAG_EXTERNAL, TAG_ALIEN, TAG_MAGICAL, TAG_BIOPUNK, TAG_DISEASE, TAG_MONKE)
 
 /datum/round_event_control/electrical_storm
 	track = EVENT_TRACK_MUNDANE
@@ -79,7 +79,7 @@
 
 /datum/round_event_control/grey_tide
 	track = EVENT_TRACK_MODERATE
-	tags = list(TAG_DESTRUCTIVE, TAG_SPOOKY, TAG_COSMIC, TAG_SECURITY, TAG_CONSPIRACY)
+	tags = list(TAG_DESTRUCTIVE, TAG_SPOOKY, TAG_COSMIC, TAG_SECURITY, TAG_CONSPIRACY, TAG_MONKE)
 
 /datum/round_event_control/grid_check
 	track = EVENT_TRACK_MODERATE
@@ -91,11 +91,11 @@
 
 /datum/round_event_control/immovable_rod
 	track = EVENT_TRACK_MODERATE
-	tags = list(TAG_DESTRUCTIVE, TAG_EXTERNAL, TAG_MAGICAL)
+	tags = list(TAG_DESTRUCTIVE, TAG_EXTERNAL, TAG_MAGICAL, TAG_MONKE)
 
 /datum/round_event_control/ion_storm
 	track = EVENT_TRACK_MODERATE
-	tags = list(TAG_TARGETED, TAG_ALIEN, TAG_COSMIC, TAG_CONSPIRACY)
+	tags = list(TAG_TARGETED, TAG_ALIEN, TAG_COSMIC, TAG_CONSPIRACY, TAG_AI, TAG_MONKE)
 
 /datum/round_event_control/mass_hallucination
 	track = EVENT_TRACK_MUNDANE
@@ -107,7 +107,7 @@
 
 /datum/round_event_control/mice_migration
 	track = EVENT_TRACK_MUNDANE
-	tags = list(TAG_DESTRUCTIVE, TAG_ALIEN) //not really alien but rat lords kind of are
+	tags = list(TAG_DESTRUCTIVE, TAG_ALIEN, TAG_MONKE) //not really alien but rat lords kind of are
 
 /datum/round_event_control/morph
 	track = EVENT_TRACK_MAJOR
@@ -138,7 +138,7 @@
 
 /datum/round_event_control/radiation_leak
 	track = EVENT_TRACK_MODERATE
-	tags = list(TAG_COMMUNAL, TAG_COSMIC, TAG_CONSPIRACY)
+	tags = list(TAG_COMMUNAL, TAG_COSMIC, TAG_CONSPIRACY, TAG_MONKE)
 
 /datum/round_event_control/radiation_storm
 	track = EVENT_TRACK_MODERATE
@@ -151,27 +151,27 @@
 
 /datum/round_event_control/sandstorm
 	track = EVENT_TRACK_MODERATE
-	tags = list(TAG_DESTRUCTIVE, TAG_EXTERNAL)
+	tags = list(TAG_DESTRUCTIVE, TAG_EXTERNAL, TAG_AI, TAG_MONKE)
 
 /datum/round_event_control/scrubber_clog
 	track = EVENT_TRACK_MUNDANE
-	tags = list(TAG_COMMUNAL, TAG_ALIEN, TAG_MAGICAL)
+	tags = list(TAG_COMMUNAL, TAG_ALIEN, TAG_MAGICAL, TAG_BIOPUNK, TAG_MONKE)
 
 /datum/round_event_control/scrubber_clog/critical
 	track = EVENT_TRACK_MAJOR
-	tags = list(TAG_COMMUNAL, TAG_COMBAT, TAG_EXTERNAL, TAG_ALIEN, TAG_MAGICAL)
+	tags = list(TAG_COMMUNAL, TAG_COMBAT, TAG_EXTERNAL, TAG_ALIEN, TAG_MAGICAL, TAG_MONKE)
 
 /datum/round_event_control/scrubber_overflow
 	track = EVENT_TRACK_MODERATE
-	tags = list(TAG_COMMUNAL, TAG_COSMIC)
+	tags = list(TAG_COMMUNAL, TAG_COSMIC, TAG_MONKE)
 
 /datum/round_event_control/sentience
 	track = EVENT_TRACK_MUNDANE
-	tags = list(TAG_COMMUNAL, TAG_SPOOKY, TAG_MAGICAL, TAG_CONSPIRACY, TAG_POSITIVE)
+	tags = list(TAG_COMMUNAL, TAG_SPOOKY, TAG_MAGICAL, TAG_CONSPIRACY, TAG_POSITIVE, TAG_MONKE)
 
 /datum/round_event_control/sentient_disease
 	track = EVENT_TRACK_MAJOR
-	tags = list(TAG_COMBAT, TAG_DESTRUCTIVE, TAG_EXTERNAL, TAG_ALIEN, TAG_BIOPUNK, TAG_DISEASE, TAG_CONSPIRACY)
+	tags = list(TAG_COMBAT, TAG_DESTRUCTIVE, TAG_EXTERNAL, TAG_ALIEN, TAG_BIOPUNK, TAG_DISEASE, TAG_CONSPIRACY, TAG_MONKE)
 	checks_antag_cap = TRUE
 
 /datum/round_event_control/shuttle_catastrophe
@@ -193,11 +193,11 @@
 
 /datum/round_event_control/space_dust
 	track = EVENT_TRACK_MUNDANE
-	tags = list(TAG_DESTRUCTIVE, TAG_SPACE, TAG_EXTERNAL)
+	tags = list(TAG_DESTRUCTIVE, TAG_SPACE, TAG_EXTERNAL, TAG_MONKE)
 
 /datum/round_event_control/space_dragon
 	track = EVENT_TRACK_ROLESET
-	tags = list(TAG_COMBAT, TAG_SPACE, TAG_EXTERNAL, TAG_ALIEN, TAG_MAGICAL, TAG_SECURITY)
+	tags = list(TAG_COMBAT, TAG_SPACE, TAG_EXTERNAL, TAG_ALIEN, TAG_MAGICAL, TAG_SECURITY, TAG_MONKE)
 	checks_antag_cap = TRUE
 
 /datum/round_event_control/space_ninja
@@ -207,32 +207,32 @@
 
 /datum/round_event_control/spacevine
 	track = EVENT_TRACK_MAJOR
-	tags = list(TAG_COMBAT, TAG_DESTRUCTIVE, TAG_ALIEN, TAG_SECURITY, TAG_CONSPIRACY)
+	tags = list(TAG_COMBAT, TAG_DESTRUCTIVE, TAG_ALIEN, TAG_SECURITY, TAG_CONSPIRACY, TAG_MONKE)
 	checks_antag_cap = TRUE
 
 /datum/round_event_control/spider_infestation
 	track = EVENT_TRACK_ROLESET
-	tags = list(TAG_COMBAT, TAG_DESTRUCTIVE, TAG_EXTERNAL, TAG_ALIEN, TAG_BIOPUNK, TAG_SECURITY)
+	tags = list(TAG_COMBAT, TAG_DESTRUCTIVE, TAG_EXTERNAL, TAG_ALIEN, TAG_BIOPUNK, TAG_SECURITY, TAG_MONKE)
 
 /datum/round_event_control/stray_cargo
 	track = EVENT_TRACK_MUNDANE
-	tags = list(TAG_COMMUNAL, TAG_COSMIC, TAG_SECURITY, TAG_CONSPIRACY, TAG_POSITIVE)
+	tags = list(TAG_COMMUNAL, TAG_COSMIC, TAG_SECURITY, TAG_CONSPIRACY, TAG_POSITIVE, TAG_MONKE)
 
 /datum/round_event_control/stray_meteor
 	track = EVENT_TRACK_MODERATE
-	tags = list(TAG_DESTRUCTIVE, TAG_SPACE, TAG_EXTERNAL, TAG_CONSPIRACY)
+	tags = list(TAG_DESTRUCTIVE, TAG_SPACE, TAG_EXTERNAL, TAG_CONSPIRACY, TAG_MONKE)
 
 /datum/round_event_control/supermatter_surge
 	track = EVENT_TRACK_MODERATE
-	tags = list(TAG_DESTRUCTIVE, TAG_COMMUNAL, TAG_COSMIC, TAG_CONSPIRACY)
+	tags = list(TAG_DESTRUCTIVE, TAG_COMMUNAL, TAG_COSMIC, TAG_CONSPIRACY, TAG_MONKE)
 
 /datum/round_event_control/tram_malfunction
 	track = EVENT_TRACK_MUNDANE
-	tags = list(TAG_COMMUNAL, TAG_COSMIC)
+	tags = list(TAG_COMMUNAL, TAG_COSMIC, TAG_MONKE)
 
 /datum/round_event_control/wisdomcow
 	track = EVENT_TRACK_MUNDANE
-	tags = list(TAG_COMMUNAL, TAG_POSITIVE, TAG_MAGICAL, TAG_CONSPIRACY)
+	tags = list(TAG_COMMUNAL, TAG_POSITIVE, TAG_MAGICAL, TAG_CONSPIRACY, TAG_MONKE)
 
 /datum/round_event_control/wormholes
 	track = EVENT_TRACK_MODERATE

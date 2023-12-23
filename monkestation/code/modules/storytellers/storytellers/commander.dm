@@ -18,5 +18,5 @@
 		EVENT_TRACK_OBJECTIVES = 1.5
 		)
 	tag_multipliers = list(TAG_SECURITY = 2.4, TAG_COMMUNAL = 1.10, TAG_TARGETED = 1.5, TAG_CREW_ANTAG = 1.10, TAG_SPACE = 1.5)
-	weight = 3
+	weight = 2
 	roundstart_prob = 1
