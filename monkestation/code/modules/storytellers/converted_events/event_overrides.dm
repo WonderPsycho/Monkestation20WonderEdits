@@ -1,6 +1,6 @@
 /datum/round_event_control/abductor
 	track = EVENT_TRACK_MAJOR
-	tags = list(TAG_TARGETED, TAG_SPOOKY, TAG_EXTERNAL, TAG_ALIEN, TAG_SECURITY)
+	tags = list(TAG_TARGETED, TAG_SPOOKY, TAG_EXTERNAL, TAG_ALIEN, TAG_SECURITY, TAG_CONSPIRACY)
 	checks_antag_cap = TRUE
 
 /datum/round_event_control/anomaly
