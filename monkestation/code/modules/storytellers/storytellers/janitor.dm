@@ -1,6 +1,6 @@
-/datum/storyteller/operative
-	name = "The Operative"
-	desc = "The Operative tries to create more direct confrontation with human threats."
+/datum/storyteller/janitor
+	name = "The Janitor"
+	desc = "The Janitor focuses around on more mundane events, creating a more chill shift experience, or more mundane disaster of a shift depending what The Janitor throws at the crew.."
 	welcome_text = "The eyes of multiple organizations have been set on the station."
 	starting_point_multipliers = list(
 		EVENT_TRACK_MUNDANE = 1,
@@ -16,7 +16,7 @@
 		EVENT_TRACK_ROLESET = 1.2,
 		EVENT_TRACK_OBJECTIVES = 1
 		)
-	tag_multipliers = list(TAG_ALIEN = 0.4, TAG_CREW_ANTAG = 1.1)
+	tag_multipliers = list(TAG_MUNDANE = 6, TAG_CREW_ANTAG = 1)
 	population_min = 45
 	ignores_roundstart = TRUE
 	weight = 1
