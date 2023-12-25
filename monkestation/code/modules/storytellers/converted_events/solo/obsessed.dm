@@ -1,6 +1,6 @@
 /datum/round_event_control/antagonist/solo/obsessed
 	antag_flag = ROLE_TRAITOR
-	tags = list(TAG_COMBAT, TAG_COSMIC, TAG_SECURITY)
+	tags = list(TAG_COMBAT, TAG_COSMIC, TAG_SECURITY, TAG_CURSED)
 	antag_datum = /datum/antagonist/obsessed
 	typepath = /datum/round_event/antagonist/solo/obsessed
 	restricted_roles = list(

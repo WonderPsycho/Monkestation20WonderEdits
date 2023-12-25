@@ -20,4 +20,5 @@
 	//population_min = 23
 	ignores_roundstart = TRUE
 	roundstart_prob = 1
-	weight = 4
+	weight = 5
+	cost_variance = 7

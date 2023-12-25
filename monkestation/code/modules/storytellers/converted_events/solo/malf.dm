@@ -1,6 +1,6 @@
 /datum/round_event_control/antagonist/solo/malf
 	antag_datum = /datum/antagonist/malf_ai
-	tags = list(TAG_COMBAT, TAG_DESTRUCTIVE, TAG_ALIEN, TAG_AI) //not exactly alien but close enough
+	tags = list(TAG_COMBAT, TAG_DESTRUCTIVE, TAG_ALIEN, TAG_AI, TAG_CURSED) //not exactly alien but close enough
 	antag_flag = ROLE_MALF
 	enemy_roles = list(
 		JOB_CHEMIST,

@@ -10,7 +10,7 @@
 	admin_setup = list(/datum/event_admin_setup/listed_options/pirates)
 	map_flags = EVENT_SPACE_ONLY
 	track = EVENT_TRACK_MAJOR
-	tags = list(TAG_COMBAT, TAG_COMMUNAL)
+	tags = list(TAG_COMBAT, TAG_COMMUNAL, TAG_CURSED)
 	checks_antag_cap = TRUE
 
 /datum/round_event/pirates
