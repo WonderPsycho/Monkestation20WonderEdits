@@ -1,11 +1,11 @@
 /datum/round_event_control/abductor
 	track = EVENT_TRACK_MAJOR
-	tags = list(TAG_TARGETED, TAG_SPOOKY, TAG_EXTERNAL, TAG_ALIEN, TAG_SECURITY, TAG_CONSPIRACY, TAG_CURSED)
+	tags = list(TAG_TARGETED, TAG_SPOOKY, TAG_EXTERNAL, TAG_ALIEN, TAG_SECURITY, TAG_CONSPIRACY, TAG_CURSED, TAG_HONK)
 	checks_antag_cap = TRUE
 
 /datum/round_event_control/anomaly
 	track = EVENT_TRACK_MODERATE
-	tags = list(TAG_DESTRUCTIVE, TAG_MAGICAL, TAG_COSMIC, TAG_MONKE, TAG_CURSED)
+	tags = list(TAG_DESTRUCTIVE, TAG_MAGICAL, TAG_COSMIC, TAG_MONKE, TAG_CURSED, TAG_HONK)
 
 /datum/round_event_control/alien_infestation
 	track = EVENT_TRACK_ROLESET
@@ -23,19 +23,19 @@
 
 /datum/round_event_control/brain_trauma
 	track = EVENT_TRACK_MUNDANE
-	tags = list(TAG_TARGETED, TAG_MAGICAL, TAG_COSMIC, TAG_CONSPIRACY, TAG_MUNDANE, TAG_CURSED) //im putting magical on this because I think this can give the magic brain traumas
+	tags = list(TAG_TARGETED, TAG_MAGICAL, TAG_COSMIC, TAG_CONSPIRACY, TAG_MUNDANE, TAG_CURSED, TAG_HONK) //im putting magical on this because I think this can give the magic brain traumas
 
 /datum/round_event_control/brand_intelligence
 	track = EVENT_TRACK_MODERATE
-	tags = list(TAG_DESTRUCTIVE, TAG_COMMUNAL, TAG_SECURITY, TAG_CURSED)
+	tags = list(TAG_DESTRUCTIVE, TAG_COMMUNAL, TAG_SECURITY, TAG_CURSED, TAG_HONK)
 
 /datum/round_event_control/bureaucratic_error
 	track = EVENT_TRACK_MAJOR // if you've ever dealt with 10 mimes you understand why.
-	tags = list(TAG_COMMUNAL, TAG_SECURITY, TAG_CONSPIRACY, TAG_MUNDANE, TAG_CURSED)
+	tags = list(TAG_COMMUNAL, TAG_SECURITY, TAG_CONSPIRACY, TAG_MUNDANE, TAG_CURSED, TAG_HONK)
 
 /datum/round_event_control/camera_failure
 	track = EVENT_TRACK_MUNDANE
-	tags = list(TAG_COMMUNAL, TAG_SPOOKY, TAG_COSMIC, TAG_SECURITY, TAG_CONSPIRACY, TAG_AI, TAG_MUNDANE, TAG_CURSED)
+	tags = list(TAG_COMMUNAL, TAG_SPOOKY, TAG_COSMIC, TAG_SECURITY, TAG_CONSPIRACY, TAG_AI, TAG_MUNDANE, TAG_CURSED, TAG_HONK)
 
 /datum/round_event_control/carp_migration
 	track = EVENT_TRACK_MODERATE
@@ -58,24 +58,24 @@
 
 /datum/round_event_control/electrical_storm
 	track = EVENT_TRACK_MUNDANE
-	tags = list(TAG_SPOOKY, TAG_COSMIC, TAG_MUNDANE)
+	tags = list(TAG_SPOOKY, TAG_COSMIC, TAG_MUNDANE, TAG_HONK)
 
 /datum/round_event_control/fake_virus
 	track = EVENT_TRACK_MUNDANE
-	tags = list(TAG_TARGETED, TAG_BIOPUNK, TAG_DISEASE, TAG_CONSPIRACY, TAG_MUNDANE)
+	tags = list(TAG_TARGETED, TAG_BIOPUNK, TAG_DISEASE, TAG_CONSPIRACY, TAG_MUNDANE, TAG_HONK)
 
 /datum/round_event_control/falsealarm
 	track = EVENT_TRACK_MUNDANE
-	tags = list(TAG_COMMUNAL, TAG_COSMIC, TAG_SECURITY, TAG_CONSPIRACY, TAG_MUNDANE)
+	tags = list(TAG_COMMUNAL, TAG_COSMIC, TAG_SECURITY, TAG_CONSPIRACY, TAG_MUNDANE, TAG_HONK)
 
 /datum/round_event_control/fugitives
 	track = EVENT_TRACK_MAJOR
-	tags = list(TAG_COMBAT, TAG_EXTERNAL, TAG_COSMIC, TAG_SECURITY, TAG_CONSPIRACY)
+	tags = list(TAG_COMBAT, TAG_EXTERNAL, TAG_COSMIC, TAG_SECURITY, TAG_CONSPIRACY, TAG_HONK)
 	checks_antag_cap = TRUE
 
 /datum/round_event_control/gravity_generator_blackout
 	track = EVENT_TRACK_MODERATE
-	tags = list(TAG_COMMUNAL, TAG_SPACE, TAG_CONSPIRACY, TAG_MUNDANE, TAG_CURSED)
+	tags = list(TAG_COMMUNAL, TAG_SPACE, TAG_CONSPIRACY, TAG_MUNDANE, TAG_CURSED, TAG_HONK)
 
 /datum/round_event_control/grey_tide
 	track = EVENT_TRACK_MODERATE
@@ -87,11 +87,11 @@
 
 /datum/round_event_control/heart_attack
 	track = EVENT_TRACK_MODERATE
-	tags = list(TAG_TARGETED, TAG_MAGICAL, TAG_BIOPUNK, TAG_DISEASE, TAG_MUNDANE, TAG_CURSED)
+	tags = list(TAG_TARGETED, TAG_MAGICAL, TAG_BIOPUNK, TAG_DISEASE, TAG_MUNDANE, TAG_CURSED, TAG_HONK)
 
 /datum/round_event_control/immovable_rod
 	track = EVENT_TRACK_MODERATE
-	tags = list(TAG_DESTRUCTIVE, TAG_EXTERNAL, TAG_MAGICAL, TAG_MONKE, TAG_CURSED)
+	tags = list(TAG_DESTRUCTIVE, TAG_EXTERNAL, TAG_MAGICAL, TAG_MONKE, TAG_CURSED, TAG_HONK)
 
 /datum/round_event_control/ion_storm
 	track = EVENT_TRACK_MODERATE
@@ -99,7 +99,7 @@
 
 /datum/round_event_control/mass_hallucination
 	track = EVENT_TRACK_MUNDANE
-	tags = list(TAG_COMMUNAL, TAG_MAGICAL, TAG_COSMIC, TAG_CURSED)
+	tags = list(TAG_COMMUNAL, TAG_MAGICAL, TAG_COSMIC, TAG_CURSED, TAG_HONK)
 
 /datum/round_event_control/meteor_wave
 	track = EVENT_TRACK_MAJOR
@@ -107,16 +107,16 @@
 
 /datum/round_event_control/mice_migration
 	track = EVENT_TRACK_MUNDANE
-	tags = list(TAG_DESTRUCTIVE, TAG_ALIEN, TAG_MONKE, TAG_MUNDANE, TAG_CURSED) //not really alien but rat lords kind of are
+	tags = list(TAG_DESTRUCTIVE, TAG_ALIEN, TAG_MONKE, TAG_MUNDANE, TAG_CURSED, TAG_HONK) //not really alien but rat lords kind of are
 
 /datum/round_event_control/morph
 	track = EVENT_TRACK_MAJOR
-	tags = list(TAG_COMBAT, TAG_SPOOKY, TAG_EXTERNAL, TAG_ALIEN, TAG_SECURITY, TAG_CONSPIRACY, TAG_CURSED)
+	tags = list(TAG_COMBAT, TAG_SPOOKY, TAG_EXTERNAL, TAG_ALIEN, TAG_SECURITY, TAG_CONSPIRACY, TAG_CURSED, TAG_HONK)
 	checks_antag_cap = TRUE
 
 /datum/round_event_control/nightmare
 	track = EVENT_TRACK_MAJOR
-	tags = list(TAG_COMBAT, TAG_SPOOKY, TAG_EXTERNAL, TAG_ALIEN, TAG_COSMIC)
+	tags = list(TAG_COMBAT, TAG_SPOOKY, TAG_EXTERNAL, TAG_ALIEN, TAG_COSMIC, TAG_HONK)
 	checks_antag_cap = TRUE
 
 /datum/round_event_control/obsessed
@@ -146,45 +146,45 @@
 
 /datum/round_event_control/revenant
 	track = EVENT_TRACK_MAJOR
-	tags = list(TAG_DESTRUCTIVE, TAG_SPOOKY, TAG_EXTERNAL, TAG_MAGICAL, TAG_COSMIC, TAG_CURSED)
+	tags = list(TAG_DESTRUCTIVE, TAG_SPOOKY, TAG_EXTERNAL, TAG_MAGICAL, TAG_COSMIC, TAG_CURSED, TAG_HONK)
 	checks_antag_cap = TRUE
 
 /datum/round_event_control/sandstorm
 	track = EVENT_TRACK_MODERATE
-	tags = list(TAG_DESTRUCTIVE, TAG_EXTERNAL, TAG_AI, TAG_MONKE, TAG_CURSED)
+	tags = list(TAG_DESTRUCTIVE, TAG_EXTERNAL, TAG_AI, TAG_MONKE, TAG_CURSED, TAG_HONK)
 
 /datum/round_event_control/scrubber_clog
 	track = EVENT_TRACK_MUNDANE
-	tags = list(TAG_COMMUNAL, TAG_ALIEN, TAG_MAGICAL, TAG_BIOPUNK, TAG_MONKE, TAG_MUNDANE)
+	tags = list(TAG_COMMUNAL, TAG_ALIEN, TAG_MAGICAL, TAG_BIOPUNK, TAG_MONKE, TAG_MUNDANE, TAG_HONK)
 
 /datum/round_event_control/scrubber_clog/critical
 	track = EVENT_TRACK_MAJOR
-	tags = list(TAG_COMMUNAL, TAG_COMBAT, TAG_EXTERNAL, TAG_ALIEN, TAG_MAGICAL, TAG_MONKE, TAG_CURSED)
+	tags = list(TAG_COMMUNAL, TAG_COMBAT, TAG_EXTERNAL, TAG_ALIEN, TAG_MAGICAL, TAG_MONKE, TAG_CURSED, TAG_HONK)
 
 /datum/round_event_control/scrubber_overflow
 	track = EVENT_TRACK_MODERATE
-	tags = list(TAG_COMMUNAL, TAG_COSMIC, TAG_MONKE, TAG_MUNDANE, TAG_CURSED)
+	tags = list(TAG_COMMUNAL, TAG_COSMIC, TAG_MONKE, TAG_MUNDANE, TAG_CURSED, TAG_HONK)
 
 /datum/round_event_control/sentience
 	track = EVENT_TRACK_MUNDANE
-	tags = list(TAG_COMMUNAL, TAG_SPOOKY, TAG_MAGICAL, TAG_CONSPIRACY, TAG_POSITIVE, TAG_MONKE)
+	tags = list(TAG_COMMUNAL, TAG_SPOOKY, TAG_MAGICAL, TAG_CONSPIRACY, TAG_POSITIVE, TAG_MONKE, TAG_HONK)
 
 /datum/round_event_control/sentient_disease
 	track = EVENT_TRACK_MAJOR
-	tags = list(TAG_COMBAT, TAG_DESTRUCTIVE, TAG_EXTERNAL, TAG_ALIEN, TAG_BIOPUNK, TAG_DISEASE, TAG_CONSPIRACY, TAG_MONKE, TAG_CURSED)
+	tags = list(TAG_COMBAT, TAG_DESTRUCTIVE, TAG_EXTERNAL, TAG_ALIEN, TAG_BIOPUNK, TAG_DISEASE, TAG_CONSPIRACY, TAG_MONKE, TAG_CURSED, TAG_HONK)
 	checks_antag_cap = TRUE
 
 /datum/round_event_control/shuttle_catastrophe
 	track = EVENT_TRACK_MODERATE
-	tags = list(TAG_COMMUNAL, TAG_COSMIC, TAG_CONSPIRACY, TAG_CURSED)
+	tags = list(TAG_COMMUNAL, TAG_COSMIC, TAG_CONSPIRACY, TAG_CURSED, TAG_HONK)
 
 /datum/round_event_control/shuttle_insurance
 	track = EVENT_TRACK_MODERATE
-	tags = list(TAG_COMMUNAL, TAG_POSITIVE, TAG_MUNDANE)
+	tags = list(TAG_COMMUNAL, TAG_POSITIVE, TAG_MUNDANE, TAG_HONK)
 
 /datum/round_event_control/shuttle_loan
 	track = EVENT_TRACK_MAJOR
-	tags = list(TAG_COMMUNAL, TAG_BIOPUNK, TAG_ALIEN, TAG_EXTERNAL, TAG_SECURITY, TAG_POSITIVE)
+	tags = list(TAG_COMMUNAL, TAG_BIOPUNK, TAG_ALIEN, TAG_EXTERNAL, TAG_SECURITY, TAG_POSITIVE, TAG_HONK)
 
 /datum/round_event_control/slaughter
 	track = EVENT_TRACK_MAJOR
@@ -197,17 +197,17 @@
 
 /datum/round_event_control/space_dragon
 	track = EVENT_TRACK_ROLESET
-	tags = list(TAG_COMBAT, TAG_SPACE, TAG_EXTERNAL, TAG_ALIEN, TAG_MAGICAL, TAG_SECURITY, TAG_MONKE, TAG_CURSED)
+	tags = list(TAG_COMBAT, TAG_SPACE, TAG_EXTERNAL, TAG_ALIEN, TAG_MAGICAL, TAG_SECURITY, TAG_MONKE, TAG_CURSED, TAG_HONK)
 	checks_antag_cap = TRUE
 
 /datum/round_event_control/space_ninja
 	track = EVENT_TRACK_ROLESET
-	tags = list(TAG_COMBAT, TAG_DESTRUCTIVE, TAG_EXTERNAL, TAG_BIOPUNK, TAG_SECURITY, TAG_CURSED)
+	tags = list(TAG_COMBAT, TAG_DESTRUCTIVE, TAG_EXTERNAL, TAG_BIOPUNK, TAG_SECURITY, TAG_CURSED, TAG_HONK)
 	checks_antag_cap = TRUE
 
 /datum/round_event_control/spacevine
 	track = EVENT_TRACK_MAJOR
-	tags = list(TAG_COMBAT, TAG_DESTRUCTIVE, TAG_ALIEN, TAG_SECURITY, TAG_CONSPIRACY, TAG_MONKE, TAG_CURSED)
+	tags = list(TAG_COMBAT, TAG_DESTRUCTIVE, TAG_ALIEN, TAG_SECURITY, TAG_CONSPIRACY, TAG_MONKE, TAG_CURSED, TAG_HONK)
 	checks_antag_cap = TRUE
 
 /datum/round_event_control/spider_infestation
@@ -216,19 +216,19 @@
 
 /datum/round_event_control/stray_cargo
 	track = EVENT_TRACK_MUNDANE
-	tags = list(TAG_COMMUNAL, TAG_COSMIC, TAG_SECURITY, TAG_CONSPIRACY, TAG_POSITIVE, TAG_MONKE)
+	tags = list(TAG_COMMUNAL, TAG_COSMIC, TAG_SECURITY, TAG_CONSPIRACY, TAG_POSITIVE, TAG_MONKE, TAG_HONK)
 
 /datum/round_event_control/stray_meteor
 	track = EVENT_TRACK_MODERATE
-	tags = list(TAG_DESTRUCTIVE, TAG_SPACE, TAG_EXTERNAL, TAG_CONSPIRACY, TAG_MONKE, TAG_MUNDANE, TAG_CURSED)
+	tags = list(TAG_DESTRUCTIVE, TAG_SPACE, TAG_EXTERNAL, TAG_CONSPIRACY, TAG_MONKE, TAG_MUNDANE, TAG_CURSED, TAG_HONK)
 
 /datum/round_event_control/supermatter_surge
 	track = EVENT_TRACK_MODERATE
-	tags = list(TAG_DESTRUCTIVE, TAG_COMMUNAL, TAG_COSMIC, TAG_CONSPIRACY, TAG_MONKE, TAG_MUNDANE, TAG_CURSED)
+	tags = list(TAG_DESTRUCTIVE, TAG_COMMUNAL, TAG_COSMIC, TAG_CONSPIRACY, TAG_MONKE, TAG_MUNDANE, TAG_CURSED, TAG_HONK)
 
 /datum/round_event_control/tram_malfunction
 	track = EVENT_TRACK_MUNDANE
-	tags = list(TAG_COMMUNAL, TAG_COSMIC, TAG_MONKE, TAG_MUNDANE)
+	tags = list(TAG_COMMUNAL, TAG_COSMIC, TAG_MONKE, TAG_MUNDANE, TAG_HONK)
 
 /datum/round_event_control/wisdomcow
 	track = EVENT_TRACK_MUNDANE
@@ -236,11 +236,11 @@
 
 /datum/round_event_control/wormholes
 	track = EVENT_TRACK_MODERATE
-	tags = list(TAG_COMMUNAL, TAG_MAGICAL, TAG_COSMIC, TAG_SECURITY, TAG_CURSED)
+	tags = list(TAG_COMMUNAL, TAG_MAGICAL, TAG_COSMIC, TAG_SECURITY, TAG_CURSED, TAG_HONK)
 
 /datum/round_event_control/wizard/blobies //THIS WILL BE THE ONLY WIZARD MAGICAL EVENT THAT WILL BE ADDED TO THIS SYSTEM, I WILL NOT ADD ANY OTHER WIZARD BASED MAGICAL EVENT TO THIS SYSTEM AS I WANT THE REST OF THOSE EVENTS TO BE PURELY RESTRICTED TO THE WIZARD'S STUFF AND THEIR NON-SENSE!! -WonderPsycho/WonderHellblazer
 	track = EVENT_TRACK_MAJOR
-	tags = list(TAG_MAGICAL, TAG_BIOPUNK, TAG_COMBAT, TAG_ALIEN, TAG_SECURITY, TAG_CURSED)
+	tags = list(TAG_MAGICAL, TAG_BIOPUNK, TAG_COMBAT, TAG_ALIEN, TAG_SECURITY, TAG_CURSED, TAG_HONK)
 
 /datum/round_event_control/wizard/deprevolt //Actually change my mind, this will be the last "wizard event" that will be storyteller pickable, even though this is a scrapped magical event that is essentially a mini-nations event originally only triggerable by admins(it only turns one department into independent separatists), so I decided "if Nations as a event/roundtype was already regulated to only be triggered by admins, why not this mini-nations event be a randomly triggerable event by storytellers?" -WonderPsycho/WonderHellblazer
 	track = EVENT_TRACK_MAJOR

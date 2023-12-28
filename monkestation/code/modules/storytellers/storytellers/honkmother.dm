@@ -9,6 +9,7 @@
 		EVENT_TRACK_ROLESET = 1,
 		EVENT_TRACK_OBJECTIVES = 1
 		)
+	tag_multipliers = list(TAG_HONK = 2)
 	population_min = 40
 	ignores_roundstart = TRUE
 	weight = 2
