@@ -6515,6 +6515,7 @@
 #include "monkestation\code\modules\storytellers\storytellers\artificial.dm"
 #include "monkestation\code\modules\storytellers\storytellers\cadet.dm"
 #include "monkestation\code\modules\storytellers\storytellers\chaos.dm"
+#include "monkestation\code\modules\storytellers\storytellers\chronicler.dm"
 #include "monkestation\code\modules\storytellers\storytellers\clown.dm"
 #include "monkestation\code\modules\storytellers\storytellers\cluwne.dm"
 #include "monkestation\code\modules\storytellers\storytellers\commander.dm"
