@@ -11,4 +11,5 @@
 		EVENT_TRACK_OBJECTIVES = 6
 		)
 	tag_multipliers = list(TAG_CURSED = 15)
-	weight = 3
+	weight = 1
+	population_min = 85
