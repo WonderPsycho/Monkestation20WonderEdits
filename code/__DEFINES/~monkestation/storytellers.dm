@@ -54,6 +54,10 @@
 #define TAG_AI "ai"
 //When the event is kind of conspiratorial (primarily used by The Conspirator)
 #define TAG_CONSPIRACY "conspiracy"
+//When the event has something to do with radiation
+#define TAG_RADIATION "radiation"
+//When the event has something to do with garbage, trash and rodents (primarily used by The Trashlord)
+#define TAG_TRASH "trash"
 
 #define EVENT_TRACK_MUNDANE "Mundane"
 #define EVENT_TRACK_MODERATE "Moderate"
