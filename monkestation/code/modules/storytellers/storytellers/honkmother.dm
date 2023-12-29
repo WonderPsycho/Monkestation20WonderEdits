@@ -5,9 +5,9 @@
 	point_gains_multipliers = list(
 		EVENT_TRACK_MUNDANE = 4,
 		EVENT_TRACK_MODERATE = 3,
-		EVENT_TRACK_MAJOR = 1.4,
-		EVENT_TRACK_ROLESET = 1,
-		EVENT_TRACK_OBJECTIVES = 1
+		EVENT_TRACK_MAJOR = 2,
+		EVENT_TRACK_ROLESET = 5,
+		EVENT_TRACK_OBJECTIVES = 2
 		)
 	tag_multipliers = list(TAG_HONK = 2, TAG_SPACE = 1, TAG_CREW_ANTAG = 1.2, TAG_MUNDANE = 1, TAG_ALIEN = 0.9)
 	population_min = 40
