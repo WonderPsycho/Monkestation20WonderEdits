@@ -1,6 +1,7 @@
 /datum/storyteller/honkmother
 	name = "The Honkmother"
 	desc = "The Honkmother will create much more events, with higher possibilities of them repeating."
+	welcome_text = "This shift feels a little silly.."
 	event_repetition_multiplier = 1
 	point_gains_multipliers = list(
 		EVENT_TRACK_MUNDANE = 4,
