@@ -1,6 +1,7 @@
 /datum/storyteller/mutator
 	name = "The Mutator"
 	desc = "The Mutator will focus on more radiation based events... don't get irradiated!"
+	welcome_text = "If you were to remember correctly... Isn't the sector your station is in, is known to have a ton of space radiation from within it..?"
 	point_gains_multipliers = list(
 		EVENT_TRACK_MUNDANE = 1,
 		EVENT_TRACK_MODERATE = 1,
