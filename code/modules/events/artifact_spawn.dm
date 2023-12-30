@@ -7,7 +7,7 @@
 	min_players = 3
 	category = EVENT_CATEGORY_ANOMALIES
 	track = EVENT_TRACK_MODERATE
-	tags = list(TAG_SPOOKY, TAG_COSMIC)
+	tags = list(TAG_SPOOKY, TAG_COSMIC, TAG_RELIGION, TAG_HONK)
 
 /datum/round_event/random_artifact
 	announce_when = 0
