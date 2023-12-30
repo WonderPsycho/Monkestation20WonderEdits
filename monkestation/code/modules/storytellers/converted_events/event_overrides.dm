@@ -138,11 +138,11 @@
 
 /datum/round_event_control/radiation_leak
 	track = EVENT_TRACK_MODERATE
-	tags = list(TAG_COMMUNAL, TAG_COSMIC, TAG_CONSPIRACY, TAG_MONKE, TAG_MUNDANE, TAG_CURSED)
+	tags = list(TAG_COMMUNAL, TAG_COSMIC, TAG_CONSPIRACY, TAG_MONKE, TAG_MUNDANE, TAG_CURSED, TAG_RADIATION)
 
 /datum/round_event_control/radiation_storm
 	track = EVENT_TRACK_MODERATE
-	tags = list(TAG_COMMUNAL, TAG_MUNDANE, TAG_CURSED)
+	tags = list(TAG_COMMUNAL, TAG_MUNDANE, TAG_CURSED, TAG_RADIATION)
 
 /datum/round_event_control/revenant
 	track = EVENT_TRACK_MAJOR

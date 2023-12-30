@@ -1,6 +1,7 @@
 /datum/storyteller/monkey
 	name = "The Monkey"
 	desc = "The Monkey will create mostly internal conflict around the station, and rarely any external threats."
+	welcome_text = "You feel like monkeying around right now.."
 	event_repetition_multiplier = 4
 	starting_point_multipliers = list(
 		EVENT_TRACK_MUNDANE = 1,

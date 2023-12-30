@@ -17,7 +17,6 @@
 		EVENT_TRACK_OBJECTIVES = 1
 		)
 	tag_multipliers = list(TAG_MUNDANE = 6, TAG_CREW_ANTAG = 1, TAG_SECURITY = 0.4)
-	population_min = 23
 	ignores_roundstart = TRUE
 	roundstart_prob = 1
 	weight = 5
