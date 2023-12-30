@@ -1,6 +1,6 @@
 /datum/storyteller/mutator
 	name = "The Mutator"
-	desc = "The Mutator will create mostly internal conflict around the station, and rarely any external threats."
+	desc = "The Mutator will focus on more radiation based events... don't get irradiated!"
 	point_gains_multipliers = list(
 		EVENT_TRACK_MUNDANE = 1,
 		EVENT_TRACK_MODERATE = 1,
