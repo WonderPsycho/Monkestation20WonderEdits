@@ -6068,6 +6068,7 @@
 #include "monkestation\code\modules\donator\code\item\effects.dm"
 #include "monkestation\code\modules\donator\code\item\plush.dm"
 #include "monkestation\code\modules\donator\code\mob\pets.dm"
+#include "monkestation\code\modules\events\portal_storm.dm"
 #include "monkestation\code\modules\events\summon_wizard_event.dm"
 #include "monkestation\code\modules\events\wizard\summon_gifts.dm"
 #include "monkestation\code\modules\food_and_drinks\recipes\boiling.dm"
