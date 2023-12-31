@@ -1,6 +1,7 @@
 /datum/storyteller/giver
 	name = "The Giver"
 	desc = "The Giver is a calm storyteller, that sometimes focuses a bit on more positive events"
+	welcome_text = "Something tells you that.. Things this shift... Are gonna be ok!"
 	point_gains_multipliers = list(
 		EVENT_TRACK_MUNDANE = 1.6,
 		EVENT_TRACK_MODERATE = 1.2,
