@@ -43,6 +43,7 @@
 					  /mob/living/simple_animal/hostile/megafauna/dragon/lesser = 3,
 					  /mob/living/simple_animal/hostile/megafauna/blood_drunk_miner = 5,
 					  /mob/living/simple_animal/hostile/megafauna/blood_drunk_miner/doom = 2,
+					  /mob/living/basic/mining/legion/large = 3,
 					  )
 	hostile_types = list(
 		/mob/living/carbon/human/species/monkey = 27,
@@ -69,5 +70,11 @@
 		/mob/living/basic/mining/legion = 13,
 		/mob/living/basic/mining/legion/snow = 13,
 		/mob/living/basic/mining/legion/dwarf = 12,
-		/mob/living/basic/mining/legion/large = 5,
+		/mob/living/basic/mining/watcher = 11,
+		/mob/living/basic/mining/hivelord = 15,
+		/mob/living/basic/mining/goliath = 6,
+		/mob/living/basic/mining/goldgrub = 10,
+		/mob/living/basic/venus_human_trap = 15,
+		/mob/living/basic/gorilla = 7,
+		/mob/living/basic/gorilla/lesser = 7,
 	)
