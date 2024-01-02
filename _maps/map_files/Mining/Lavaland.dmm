@@ -6808,6 +6808,7 @@
 /obj/effect/turf_decal/trimline/red/filled/corner{
 	dir = 4
 	},
+/obj/effect/landmark/start/security_officer,
 /turf/open/floor/iron/dark/smooth_corner{
 	dir = 4
 	},
@@ -8016,6 +8017,7 @@
 /obj/effect/turf_decal/trimline/red/filled/corner{
 	dir = 1
 	},
+/obj/effect/landmark/start/security_officer,
 /turf/open/floor/iron/dark/smooth_corner{
 	dir = 1
 	},
