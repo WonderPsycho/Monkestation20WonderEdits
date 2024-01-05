@@ -2,7 +2,7 @@
 
 
 /datum/round_event_control/portal_storm_blob //custom portal storm event originally made for testing custom portal storm events, after liking what I coded so far and preferring this event I coded instead of including a exclusive magical event for blob zombie outbreak shenanigens, this instead is 10x more better for storytellers to use, and the blob zombie outbreak event shall only be restricted to wizard's triggering of magical events
-	name = "Portal Storm: Blob"
+	name = "Portal Storm: Blob (Medium)"
 	typepath = /datum/round_event/portal_storm/blob
 	weight = 2
 	min_players = 15
@@ -77,4 +77,10 @@
 		/mob/living/basic/venus_human_trap = 15,
 		/mob/living/basic/gorilla = 7,
 		/mob/living/basic/gorilla/lesser = 7,
+		/mob/living/basic/pet/dog/corgi = 30,
+		/mob/living/basic/pet/dog/corgi/puppy = 30,
+		/mob/living/basic/pet/dog/pug = 30,
+		/mob/living/basic/pet/dog/bullterrier = 30,
+		/mob/living/basic/parrot = 14,
+		/mob/living/basic/parrot/headsetted = 10,
 	)
