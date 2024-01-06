@@ -29,7 +29,7 @@
 /datum/round_event_control/portal_storm_random_major //inspired by Half Life 1's Resonance Cascade Portal Storm, a attempt to make a chaotic portal storm event similar in vain to Half Life's Resonance Cascade Portal Storm
 	name = "Portal Storm: Random (Major)"
 	typepath = /datum/round_event/portal_storm/randommajor
-	weight = 1 //set to "1" to make absolutely sure this event is rare and as a safeguard -WonderPsycho/WonderHellblazer
+	weight = 0 //set to "1" to make absolutely sure this event is rare and as a safeguard -WonderPsycho/WonderHellblazer //Actually scratch that, possibility of this event even happening is deterimined by the storytellers themselves or the admin for how chaotic and long this major event is -WonderPsycho/WonderHellblazer
 	min_players = 15
 	max_occurrences = 1
 	earliest_start = 30 MINUTES
@@ -44,6 +44,7 @@
 					  /mob/living/simple_animal/hostile/megafauna/blood_drunk_miner = 5,
 					  /mob/living/simple_animal/hostile/megafauna/blood_drunk_miner/doom = 2,
 					  /mob/living/basic/mining/legion/large = 3,
+					  /mob/living/basic/carp/mega = 4,
 					  )
 	hostile_types = list(
 		/mob/living/carbon/human/species/monkey = 27,
@@ -83,4 +84,32 @@
 		/mob/living/basic/pet/dog/bullterrier = 30,
 		/mob/living/basic/parrot = 14,
 		/mob/living/basic/parrot/headsetted = 10,
+		/mob/living/basic/pet/fox = 30,
+		/mob/living/basic/pet/penguin/emperor = 30,
+		/mob/living/basic/sloth = 30,
+		/mob/living/basic/skeleton = 21,
+		/mob/living/basic/skeleton/plasmaminer = 5,
+		/mob/living/basic/stickman = 17,
+		/mob/living/basic/bear = 6,
+		/mob/living/basic/carp/magic = 17,
+		/mob/living/basic/hivebot/range = 10,
+		/mob/living/basic/creature = 8,
+		/mob/living/basic/migo = 10,
+		/mob/living/basic/blankbody = 10,
+		/mob/living/basic/ant = 27,
+		/mob/living/basic/killer_tomato = 10,
+		/mob/living/basic/spaceman = 10,
+		/mob/living/basic/trooper/nanotrasen/peaceful = 19,
+		/mob/living/basic/trooper/russian = 9,
+		/mob/living/basic/trooper/russian/ranged = 9,
+		/mob/living/basic/trooper/syndicate/ranged = 9,
+		/mob/living/basic/trooper/syndicate/melee = 9,
+		/mob/living/basic/cockroach = 40,
+		/mob/living/basic/mouse = 30,
+		/mob/living/simple_animal/bot/secbot = 30,
+		/mob/living/simple_animal/bot/medbot = 20,
+		/mob/living/simple_animal/bot/secbot/honkbot = 30,
+		/mob/living/simple_animal/bot/floorbot = 10,
+		/mob/living/simple_animal/bot/firebot = 14,
+		/mob/living/simple_animal/bot/cleanbot = 40,
 	)
