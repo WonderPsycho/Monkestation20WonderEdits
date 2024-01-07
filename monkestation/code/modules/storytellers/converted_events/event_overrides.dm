@@ -138,6 +138,7 @@
 /datum/round_event_control/portal_storm_random_major
 	track = EVENT_TRACK_MAJOR
 	tags = list(TAG_EXTERNAL, TAG_CURSED, TAG_ALIEN, TAG_COMBAT, TAG_DESTRUCTIVE)
+
 /datum/round_event_control/processor_overload
 	max_occurrences = 2
 	track = EVENT_TRACK_MODERATE
