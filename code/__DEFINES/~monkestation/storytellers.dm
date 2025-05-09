@@ -58,6 +58,8 @@
 #define TAG_RADIATION "radiation"
 //When the event has something to do with garbage, trash and rodents (primarily used by The Trashlord)
 #define TAG_TRASH "trash"
+//When the event is random (or rather all of the events in this case?)
+#define TAG_RANDOM "random"
 
 #define EVENT_TRACK_MUNDANE "Mundane"
 #define EVENT_TRACK_MODERATE "Moderate"
