@@ -30,6 +30,10 @@
 #define TAG_ALIEN "alien"
 /// When the event is magical in nature
 #define TAG_MAGICAL "magical"
+//When the event is biopunkish in nature
+#define	TAG_BIOPUNK "biopunk"
+//When the event is anti-biohazardous in nature? a little extra tag for The Hivelord
+#define TAG_COUNTERBIO "counterbio"
 
 #define EVENT_TRACK_MUNDANE "Mundane"
 #define EVENT_TRACK_MODERATE "Moderate"
