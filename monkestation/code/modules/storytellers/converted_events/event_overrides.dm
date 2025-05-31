@@ -45,7 +45,7 @@
 
 /datum/round_event_control/carp_migration
 	track = EVENT_TRACK_MODERATE
-	tags = list(TAG_DESTRUCTIVE, TAG_COMBAT, TAG_SPACE, TAG_EXTERNAL, TAG_ALIEN)
+	tags = list(TAG_DESTRUCTIVE, TAG_COMBAT, TAG_SPACE, TAG_EXTERNAL, TAG_ALIEN, TAG_BIOPUNK)
 	event_group = /datum/event_group/guests
 
 //THIS IS THE METEOR EVENT, IT NEEDS TO BE A METEOR, DO NOT SPAWN THIS ON PLANETARY MAPS(the spawn works fine on planets, the actual issue is the ling passes out due to CO2)
@@ -127,7 +127,7 @@
 
 /datum/round_event_control/mice_migration
 	track = EVENT_TRACK_MUNDANE
-	tags = list(TAG_DESTRUCTIVE, TAG_ALIEN) //not really alien but rat lords kind of are
+	tags = list(TAG_DESTRUCTIVE, TAG_ALIEN, TAG_BIOPUNK) //not really alien but rat lords kind of are
 	event_group = /datum/event_group/guests
 
 /datum/round_event_control/morph
@@ -224,13 +224,13 @@
 
 /datum/round_event_control/space_dragon
 	track = EVENT_TRACK_ROLESET
-	tags = list(TAG_COMBAT, TAG_SPACE, TAG_EXTERNAL, TAG_ALIEN, TAG_MAGICAL, TAG_OUTSIDER_ANTAG)
+	tags = list(TAG_COMBAT, TAG_SPACE, TAG_EXTERNAL, TAG_ALIEN, TAG_MAGICAL, TAG_OUTSIDER_ANTAG, TAG_BIOPUNK)
 	checks_antag_cap = TRUE
 	dont_spawn_near_roundend = TRUE
 
 /datum/round_event_control/space_ninja
 	track = EVENT_TRACK_ROLESET
-	tags = list(TAG_COMBAT, TAG_DESTRUCTIVE, TAG_EXTERNAL, TAG_OUTSIDER_ANTAG)
+	tags = list(TAG_COMBAT, TAG_DESTRUCTIVE, TAG_EXTERNAL, TAG_OUTSIDER_ANTAG, TAG_BIOPUNK)
 	checks_antag_cap = TRUE
 	dont_spawn_near_roundend = TRUE
 
@@ -288,4 +288,4 @@
 	track = EVENT_TRACK_OBJECTIVES
 
 /datum/round_event_control/portal_storm_monkey
-	tags = list(TAG_EXTERNAL, TAG_COMMUNAL)
+	tags = list(TAG_EXTERNAL, TAG_COMMUNAL, TAG_BIOPUNK)
