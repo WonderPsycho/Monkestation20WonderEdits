@@ -1,6 +1,6 @@
 /datum/round_event_control/antagonist/solo/bloodsucker
 	antag_flag = ROLE_BLOODSUCKER
-	tags = list(TAG_COMBAT, TAG_MAGICAL, TAG_CREW_ANTAG, TAG_SPOOKY)
+	tags = list(TAG_COMBAT, TAG_MAGICAL, TAG_CREW_ANTAG, TAG_SPOOKY, TAG_BIOPUNK)
 	antag_datum = /datum/antagonist/bloodsucker
 	protected_roles = list(
 		JOB_CAPTAIN,

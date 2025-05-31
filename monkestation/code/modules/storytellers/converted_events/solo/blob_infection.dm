@@ -1,7 +1,7 @@
 /datum/round_event_control/antagonist/solo/blob_infection
 	name = "Blob Infection"
 	weight = 6
-	tags = list(TAG_DESTRUCTIVE, TAG_COMBAT, TAG_EXTERNAL, TAG_ALIEN, TAG_CREW_ANTAG)
+	tags = list(TAG_DESTRUCTIVE, TAG_COMBAT, TAG_EXTERNAL, TAG_ALIEN, TAG_CREW_ANTAG, TAG_BIOPUNK)
 	antag_flag = ROLE_BLOB_INFECTION
 	antag_datum = /datum/antagonist/blob/infection
 	min_players = 35

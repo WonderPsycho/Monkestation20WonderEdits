@@ -11,7 +11,7 @@
 
 /datum/round_event_control/alien_infestation
 	track = EVENT_TRACK_ROLESET
-	tags = list(TAG_COMBAT, TAG_DESTRUCTIVE, TAG_EXTERNAL, TAG_ALIEN, TAG_OUTSIDER_ANTAG)
+	tags = list(TAG_COMBAT, TAG_DESTRUCTIVE, TAG_EXTERNAL, TAG_ALIEN, TAG_OUTSIDER_ANTAG, TAG_BIOPUNK)
 	checks_antag_cap = TRUE
 	dont_spawn_near_roundend = TRUE
 
@@ -21,7 +21,7 @@
 
 /datum/round_event_control/blob
 	track = EVENT_TRACK_ROLESET
-	tags = list(TAG_DESTRUCTIVE, TAG_COMBAT, TAG_EXTERNAL, TAG_ALIEN, TAG_OUTSIDER_ANTAG)
+	tags = list(TAG_DESTRUCTIVE, TAG_COMBAT, TAG_EXTERNAL, TAG_ALIEN, TAG_OUTSIDER_ANTAG, TAG_BIOPUNK)
 	checks_antag_cap = TRUE
 	dont_spawn_near_roundend = TRUE
 
@@ -51,7 +51,7 @@
 //THIS IS THE METEOR EVENT, IT NEEDS TO BE A METEOR, DO NOT SPAWN THIS ON PLANETARY MAPS(the spawn works fine on planets, the actual issue is the ling passes out due to CO2)
 /datum/round_event_control/changeling
 	track = EVENT_TRACK_MAJOR
-	tags = list(TAG_COMBAT, TAG_SPACE, TAG_EXTERNAL, TAG_ALIEN, TAG_OUTSIDER_ANTAG)
+	tags = list(TAG_COMBAT, TAG_SPACE, TAG_EXTERNAL, TAG_ALIEN, TAG_OUTSIDER_ANTAG, TAG_BIOPUNK)
 	checks_antag_cap = TRUE
 	dont_spawn_near_roundend = TRUE
 
@@ -63,7 +63,7 @@
 
 /datum/round_event_control/disease_outbreak
 	track = EVENT_TRACK_MODERATE
-	tags = list(TAG_TARGETED, TAG_COMMUNAL, TAG_EXTERNAL, TAG_ALIEN)
+	tags = list(TAG_TARGETED, TAG_COMMUNAL, TAG_EXTERNAL, TAG_ALIEN, TAG_BIOPUNK)
 
 /datum/round_event_control/disease_outbreak/advanced
 	track = EVENT_TRACK_MAJOR
@@ -75,7 +75,7 @@
 
 /datum/round_event_control/fake_virus
 	track = EVENT_TRACK_MUNDANE
-	tags = list(TAG_TARGETED)
+	tags = list(TAG_TARGETED, TAG_BIOPUNK)
 
 /datum/round_event_control/falsealarm
 	track = EVENT_TRACK_MUNDANE
@@ -104,7 +104,7 @@
 
 /datum/round_event_control/heart_attack
 	track = EVENT_TRACK_MODERATE
-	tags = list(TAG_TARGETED)
+	tags = list(TAG_TARGETED, TAG_BIOPUNK)
 
 /datum/round_event_control/immovable_rod
 	track = EVENT_TRACK_MODERATE
@@ -132,7 +132,7 @@
 
 /datum/round_event_control/morph
 	track = EVENT_TRACK_MAJOR
-	tags = list(TAG_COMBAT, TAG_SPOOKY, TAG_EXTERNAL, TAG_ALIEN, TAG_OUTSIDER_ANTAG)
+	tags = list(TAG_COMBAT, TAG_SPOOKY, TAG_EXTERNAL, TAG_ALIEN, TAG_OUTSIDER_ANTAG, TAG_BIOPUNK)
 	checks_antag_cap = TRUE
 	dont_spawn_near_roundend = TRUE
 
@@ -200,7 +200,7 @@
 
 /datum/round_event_control/sentient_disease
 	track = EVENT_TRACK_MAJOR
-	tags = list(TAG_COMBAT, TAG_DESTRUCTIVE, TAG_EXTERNAL, TAG_ALIEN, TAG_OUTSIDER_ANTAG)
+	tags = list(TAG_COMBAT, TAG_DESTRUCTIVE, TAG_EXTERNAL, TAG_ALIEN, TAG_OUTSIDER_ANTAG, TAG_BIOPUNK)
 	checks_antag_cap = TRUE
 	dont_spawn_near_roundend = TRUE
 
@@ -242,7 +242,7 @@
 
 /datum/round_event_control/spider_infestation
 	track = EVENT_TRACK_ROLESET
-	tags = list(TAG_COMBAT, TAG_DESTRUCTIVE, TAG_EXTERNAL, TAG_ALIEN, TAG_OUTSIDER_ANTAG)
+	tags = list(TAG_COMBAT, TAG_DESTRUCTIVE, TAG_EXTERNAL, TAG_ALIEN, TAG_OUTSIDER_ANTAG, TAG_BIOPUNK)
 	checks_antag_cap = TRUE
 	dont_spawn_near_roundend = TRUE
 
@@ -279,10 +279,10 @@
 	tags = list(TAG_OUTSIDER_ANTAG, TAG_TARGETED, TAG_COMBAT)
 
 /datum/round_event_control/shuttle_loan
-	tags = list(TAG_COMMUNAL)
+	tags = list(TAG_COMMUNAL, TAG_BIOPUNK)
 
 /datum/round_event_control/antagonist/solo/from_ghosts/alien_infestation
-	tags = list(TAG_COMBAT, TAG_ALIEN, TAG_DESTRUCTIVE, TAG_TEAM_ANTAG)
+	tags = list(TAG_COMBAT, TAG_ALIEN, TAG_DESTRUCTIVE, TAG_TEAM_ANTAG, TAG_BIOPUNK)
 
 /datum/round_event_control/dark_matteor
 	track = EVENT_TRACK_OBJECTIVES
