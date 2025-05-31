@@ -11,7 +11,7 @@
 	admin_setup = list(/datum/event_admin_setup/input_number/zombie_meteor_count)
 	checks_antag_cap = TRUE
 	track = EVENT_TRACK_ROLESET
-	tags = list(TAG_COMBAT, TAG_DESTRUCTIVE, TAG_EXTERNAL, TAG_OUTSIDER_ANTAG, TAG_SPOOKY)
+	tags = list(TAG_COMBAT, TAG_DESTRUCTIVE, TAG_EXTERNAL, TAG_OUTSIDER_ANTAG, TAG_SPOOKY, TAG_BIOPUNK)
 	enemy_roles = list(
 		JOB_CAPTAIN,
 		JOB_DETECTIVE,
