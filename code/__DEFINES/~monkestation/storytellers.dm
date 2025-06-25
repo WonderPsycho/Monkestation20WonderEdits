@@ -34,6 +34,8 @@
 #define	TAG_BIOPUNK "biopunk"
 //When the event is anti-biohazardous in nature? a little extra tag for The Hivelord
 #define TAG_COUNTERBIO "counterbio"
+//When the event is Cosmic Horror-related in nature
+#define TAG_COSMIC "cosmic"
 
 #define EVENT_TRACK_MUNDANE "Mundane"
 #define EVENT_TRACK_MODERATE "Moderate"
